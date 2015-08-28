@@ -1,0 +1,94 @@
+% !Mode:: "TeX:UTF-8"
+% +-----------------------------------------------------------------------------
+% | File: resume-en
+% | Author: huxuan
+% | E-mail: i(at)huxuan.org
+% | Created: 2012-12-18
+% | Last modified: 2013-03-16
+% | Description:
+% |     A English Resume Example in LaTeX based on resumecls
+% |
+% | Copyrgiht (c) 2012-2013 by huxuan. All rights reserved.
+% +-----------------------------------------------------------------------------
+
+\documentclass[en,color]{resumecls}
+
+\name{\LARGE{Shuhao Wang}}
+\organization{IISE lab, School of Software, Tsinghua University}
+\address{Room 11-419, East Main Building, Tsinghua University, Beijing 100084}
+\mobile{+86 152 1056 1025}
+\mail{shudiwsh2009@gmail.com}
+%\homepage{https://github.com/shudiwsh2009}
+%\resumeurl{http://example.com/resume-en.pdf}
+
+\begin{document}
+
+\begin{table}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\heading{Education}
+\entry{2em}{Xrp{8em}}{
+    \heiti{Tsinghua University} & Beijing & 2013.9-2016.7 \\
+}
+\entry{4em}{lXX}{
+    \textit{M.S.} & School of Software & Major in Software Engineering \\
+}
+\entry{2em}{Xrp{8em}}{
+    \heiti{Tsinghua University} & Beijing & 2009.9-2013.7 \\
+}
+\entry{4em}{lXX}{
+    \textit{B.S.} & School of Software & Major in Computer Software \\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\heading{Working Experience}
+\entry{2em}{Xp{8em}}{
+    \heiti{CreditEase} & 2015.6-present \\
+}
+\entry{4em}{X}{Big Data Innovation Center \quad Backend R\&D Intern}
+\entry{6em}{X}{
+    Participate in R\&D of backend and wechat open platform of a mobile app \\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\heading{Research Experience}
+\entry{2em}{Xp{8em}}{
+    \heiti{Tsinghua University} & 2012.7-present \\
+}
+\entry{4em}{X}{Institute Of Information System \& Engineering \quad Graduate student}
+\entry{6em}{X}{
+    Business Process Management - Behavioral similarity measure between models\cite{wang2015tar++,wang2013ssdt,wang2014tager}\\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\heading{Projects}
+\entry{2em}{Xp{8em}}{
+    \heiti{\textbf{Process Data Group}}\cite{wang2014managing} & 2013.12-2015.1 \\
+}
+\entry{4em}{X}{Process Data Group is an important sub-project of the Ministry of Education \& China Mobile Research
+Foundation (MCM20123011). It is an online platform based on cloud-computing technology used to manage
+and analyze multiple types of process data.}
+\entry{6em}{X}{
+    Design and build the structure of system \\
+    Design and implement the modules of model management and model analyzer\\
+}
+\entry{2em}{Xp{8em}}{
+    \textbf{BeehiveZ} & 2013.9-present \\
+}
+\entry{4em}{X}{BeehiveZ is an open source Business Process Model and Instance Management System, developed by ISE
+lab, School of Software, Tsinghua University.}
+% \entry{6em}{X}{
+%     Design and implement behavioral similarity algorithms - SSDT \& TAGER \\
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% If there is no publications, just comment this part.
+\heading{Appendix: Publications}
+\vspace{-6em}
+\bibliography{resume}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{table}
+\end{document}
