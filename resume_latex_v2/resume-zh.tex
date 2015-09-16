@@ -1,0 +1,151 @@
+%!Mode:: "TeX:UTF-8"
+%!TEX TS-program = xelatex %!Mode:: "TeX:UTF-8"
+
+\documentclass[a4paper]{resume-zh}
+
+\begin{document}
+%
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.21\textwidth} % The left column takes up 33% of the text width of the page
+
+\namesection{汪}{抒浩}
+
+\infosection{15210561025 \\
+\href{mailto:shudiwsh2009@gmail.com}{shudiwsh2009@gmail.com}  \\
+北京市海淀区清华大学 \\
+信息系统与工程研究所 \\
+东主楼11区419室}{
+% \includegraphics[width=.9em]{icons/linkedin.pdf} \href{https://www.linkedin.com/in/dingpeng/zh-cn}{dingpeng} \\
+\includegraphics[width=.9em]{icons/github.pdf} \href{https://github.com/shudiwsh2009}{shudiwsh2009}}
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.72\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{教育}
+
+\runsubsection{清华大学}
+\descript{| 软件学院，工程硕士在读，软件工程专业}
+\location{2013/9 - 2016/7 | 北京}
+\vspace{\topsep}
+\begin{tightitemize}
+\item 业务流程管理 - 流程模型行为相似性度量与评估
+\item 清华之友 - 广联达一等奖学金
+\end{tightitemize}
+
+\sectionspace
+
+%------------------------------------------------
+
+\runsubsection{清华大学}
+\descript{| 软件学院，工学学士，计算机软件专业}
+\location{2009/9 - 2013/7 | 北京}
+% \begin{tightitemize}
+% \item 
+% \end{tightitemize}
+
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{经历}
+
+\runsubsection{宜信大数据创新中心}
+\descript{| 后台研发实习生}
+\location{2015/6 - 2015/9 | 北京}
+\begin{tightitemize}
+\item 主要负责公司理财产品的H5购买网站开发，网站交易额逾千万
+\item 参与产品的后台系统和微信公众平台开发与维护
+\end{tightitemize}
+
+\sectionspace
+
+%------------------------------------------------
+
+\runsubsection{北京白驹谷科技有限责任公司}
+\descript{| 联合创始人、软件工程师}
+\location{2014/4 - 2015/1 | 北京}
+\begin{tightitemize}
+\item 网站、移动应用、微信公众平台
+\end{tightitemize}
+
+%------------------------------------------------
+% Projects
+%------------------------------------------------
+
+\section{项目}
+
+\runsubsection{在线流程数据管理平台 Process Data Space}
+\descript{| 基金项目}
+\location{2013/12 - 2015/1 | 北京 | 技术组核心负责人}
+\begin{tightitemize}
+\item 负责系统架构的设计与搭建，并指导5位本科生顺利完成毕设
+\item 设计并实现模型管理、模型分析等主要模块
+\end{tightitemize}
+
+\sectionspace
+
+%------------------------------------------------
+
+\runsubsection{清华大学学生学习与发展指导中心预约系统}
+\descript{| 校园网站}
+\location{2015/4 - 2015/9 | 北京 | 技术负责人}
+\begin{tightitemize}
+\item 咨询预约系统的前、后端开发
+\end{tightitemize}
+
+\sectionspace
+
+%------------------------------------------------
+
+\runsubsection{ANSYS中国市场办公解决方案}
+\descript{| 企业应用}
+\location{2014/4 - 2015/1 | 北京 | 软件工程师}
+\begin{tightitemize}
+\item 更新及维护ANSYS中文官网
+\item 开发微信公众平台 (微信号: ANSYS-China)，订阅数在6个月中增长6倍
+\end{tightitemize}
+
+\sectionspace
+
+%------------------------------------------------
+
+\runsubsection{业务过程模型与实例管理系统 BeehiveZ}
+\descript{| 科研项目}
+\location{2013/9 至今 | 北京 | 软件工程师}
+\begin{tightitemize}
+\item SSDT和TAGER流程模型行为相似性度量算法的设计与实现集成
+\end{tightitemize}
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+%\section{Skills}
+
+%Python, Django, C/C++, C\#, Java, SQL, MongoDB
+
+% \sectionspace
+
+\section{发表成果} 
+\renewcommand\refname{\vskip -2cm} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+\end{minipage}
+
+\end{document}
