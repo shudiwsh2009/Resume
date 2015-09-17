@@ -8,7 +8,7 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\usepackage[left=0.25cm, right=1.25cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
+\usepackage[left=0.25cm, right=1.25cm, vmargin=0.5cm]{geometry} % Specifies horizontal and vertical page margins
 \usepackage{hyperref} % Required for links
 
 %----------------------------------------------------------------------------------------
@@ -89,7 +89,7 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{enumitem}
-\setitemize[0]{leftmargin=60pt, itemindent=0pt}
+\setitemize[0]{leftmargin=50pt, itemindent=0pt}
 
 \newenvironment{tightitemize} % Defines the tightitemize environment which modifies the itemize environment to be more compact
 {\vspace{-5pt minus \topsep}\begin{itemize} \itemsep1pt \parskip0pt \parsep0pt \primaryfont}
@@ -98,4 +98,4 @@
 % \itemindent.4in
 
 \usepackage{natbib}
-\setlength{\bibsep}{2pt}
+\setlength{\bibsep}{1pt}

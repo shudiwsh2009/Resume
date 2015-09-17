@@ -8,7 +8,7 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\usepackage[left=0.25cm, right=1.25cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
+\usepackage[left=0.25cm, right=1.25cm, vmargin=0.5cm]{geometry} % Specifies horizontal and vertical page margins
 \usepackage{hyperref} % Required for links
 
 %----------------------------------------------------------------------------------------
@@ -86,4 +86,4 @@
 {\end{itemize}\vspace{-\topsep}}
 
 \usepackage{natbib}
-\setlength{\bibsep}{2pt}
+\setlength{\bibsep}{1pt}
